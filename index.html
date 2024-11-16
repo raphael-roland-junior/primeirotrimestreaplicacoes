@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cafeteria do ZIO</title>
+</head>
+<body>
+    <main>
+        <section>
+
+            <h1>Cafeteria</h1>
+
+            <form name="cafeteria" action="#" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="marcelo@gmail.com">
+
+                <label for="endereco">Localização</label>
+                <input type="text" name="endereco" id="endereco" placeholder="R. Alberto Teixeira, 87">
+
+                <label for="pedido">Faça seu Pedido</label>
+                <select name="pedido" id="pedido">
+
+                    <option value="nenhuma">Nada</option>
+                    <option value="cafe">Café</option>
+                    <option value="cafelate">Café com Leite</option>
+                    <option value="cafeexpresso">Café Expresso</option>
+                    <option value="cafemocha">Café Mocha</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="frappuccino">Frappuccino</option>
+
+                </select>
+
+                <select name="comida" id="comida" >
+
+                    <option value="nada">Nada</option>
+                    <option value="joelho">Joelho</option>
+                    <option value="pastel">Pastel</option>
+                    <option value="coxinha">Coxinha</option>
+                    <option value="croissant">Croissant</option>
+
+                </select>
+
+                <input type="button" value="Pedir" id="enviar" onclick="Deus()" >
+            </form>
+            
+            <p id="saida">O valor do seu pedido</p>
+        </section>
+    </main>
+    <script src="js/sript.js"></script>
+</body>
+</html>
